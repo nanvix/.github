@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>Nanvix is distributed operating system for manycore processors.</b>
+  <b>Nanvix is a research operating system</b>
   <br><br>
   <b>⚠️ Project Under Heavy Maintainance ⚠️</b>
 </p>
