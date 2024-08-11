@@ -13,7 +13,7 @@
 ## How Is the Project Organized?
 - [`nanvix/nanvix`](https://github.com/nanvix/nanvix) - Root Repository
 - [`nanvix/kernel`](https://github.com/nanvix/kernel) - Microkernel Implementation
-- [nanvix/kcall](https://github.com/nanvix/kcall) - Kernel Call Interface
+- [`nanvix/kcall`](https://github.com/nanvix/kcall) - Kernel Call Interface
 
 ## How to Join the Community?
 
