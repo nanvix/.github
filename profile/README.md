@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>Nanvix is a research operating system</b>
-  <br><br>
-  <b>⚠️ Project Under Heavy Maintainance ⚠️</b>
+  <b>
+    Nanvix: A Microkernel-Based Research Operating System
+  </b>
 </p>
