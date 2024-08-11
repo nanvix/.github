@@ -6,7 +6,7 @@
 
 ## Hot to Get Started?
 
-[Read this document](https://github.com/nanvix/nanvix/blob/dev/doc/setup.md)
+[Read this tutorial](https://github.com/nanvix/nanvix/blob/dev/doc/setup.md)
 
 ## How Is the Project Organized?
 - [`nanvix/nanvix`](https://github.com/nanvix/nanvix) - Root Repository
