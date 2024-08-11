@@ -6,7 +6,7 @@
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/nanvix/nanvix/x86-debug.yml?branch=dev&label=x86%20Debug%20Build)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/nanvix/nanvix/x86-release.yml?branch=dev&label=x86%20Release%20Build)
 
-## Hot to Get Started?
+## How to Get Started?
 
 [Read this tutorial](https://github.com/nanvix/nanvix/blob/dev/doc/setup.md)
 
