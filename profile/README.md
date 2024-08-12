@@ -17,4 +17,4 @@
 
 ## How to Join the Community?
 
-Join on us [Slack](https://join.slack.com/t/nanvix/shared_invite/zt-1yu30bs28-nsNmw8IwCyh6MBBV~B~X7w)!
+Join us on [Slack](https://join.slack.com/t/nanvix/shared_invite/zt-1yu30bs28-nsNmw8IwCyh6MBBV~B~X7w)!
