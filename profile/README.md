@@ -11,10 +11,10 @@
 [Read this tutorial](https://github.com/nanvix/nanvix/blob/dev/doc/setup.md)
 
 ## How Is the Project Organized?
-- [`nanvix/nanvix`](https://github.com/nanvix/nanvix) - Root Repository
-- [`nanvix/nvx`](https://github.com/nanvix/nvx) - Runtime System
-- [`nanvix/kernel`](https://github.com/nanvix/kernel) - Microkernel Implementation
-- [`nanvix/kcall`](https://github.com/nanvix/kcall) - Kernel Call Interface
+- [`nanvix`](https://github.com/nanvix/nanvix) - Root Repository
+- [`nvx`](https://github.com/nanvix/nvx) - Runtime System
+- [`kernel`](https://github.com/nanvix/kernel) - Microkernel Implementation
+- [`kcall`](https://github.com/nanvix/kcall) - Kernel Call Interface
 
 ## How to Join the Community?
 
