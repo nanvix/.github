@@ -15,7 +15,7 @@
 - [`nvx`](https://github.com/nanvix/nvx) - Runtime System
 - [`kernel`](https://github.com/nanvix/kernel) - Microkernel Implementation
 - [`kcall`](https://github.com/nanvix/kcall) - Kernel Call Interface
-- [`microvm`](https://github.com/nanvix/microvm) - Ultra-Small MicroVM that Runs Nanvix
+- [`microvm`](https://github.com/nanvix/microvm) - Ultra-Lightweight Virtual Machine that Runs Nanvix
 
 ## How to Join the Community?
 
