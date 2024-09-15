@@ -12,7 +12,6 @@
 
 ## How Is the Project Organized?
 - [`nanvix`](https://github.com/nanvix/nanvix) - Root Repository
-- [`nvx`](https://github.com/nanvix/nvx) - Runtime System
 - [`kernel`](https://github.com/nanvix/kernel) - Microkernel Implementation
 - [`microvm`](https://github.com/nanvix/microvm) - Ultra-Lightweight Virtual Machine
   
