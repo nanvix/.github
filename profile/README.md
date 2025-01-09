@@ -9,11 +9,6 @@
 ## How to Get Started?
 
 [Follow these instructions](https://github.com/nanvix/nanvix/blob/dev/README.md#documentation)
-
-## How Is the Project Organized?
-- [`nanvix`](https://github.com/nanvix/nanvix) - Root Repository
-- [`kernel`](https://github.com/nanvix/kernel) - Microkernel Implementation
-- [`microvm`](https://github.com/nanvix/microvm) - Ultra-Lightweight Virtual Machine
   
 ## How to Join the Community?
 
