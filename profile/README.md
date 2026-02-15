@@ -7,7 +7,25 @@
 
 ## How to Get Started?
 
-[Follow these instructions](https://github.com/nanvix/nanvix/blob/dev/README.md#documentation)
+Run these steps on Ubuntu 24.04 with sudo privileges, [Docker](https://github.com/nanvix/nanvix/blob/dev/doc/setup.md#5-setup-docker-optional), and
+[KVM](https://github.com/nanvix/nanvix/blob/dev/doc/setup.md#4-setup-kvm) enabled.
+
+```bash
+# Clone this source code.
+git clone https://github.com/nanvix/nanvix.git && cd nanvix
+
+# Setup a minimal development environment.
+./z setup --with-minimal-docker
+
+# Build Nanvix.
+./z build --with-minimal-docker -- all
+
+# Run an example application.
+./bin/nanvixd.elf -console-file /dev/stdout -- ./bin/hello-rust-nostd.elf
+```
+
+> For more details, see the full [setup](https://github.com/nanvix/nanvix/blob/dev/doc/setup.md), [build](https://github.com/nanvix/nanvix/blob/dev/doc/build.md), and
+> [run](https://github.com/nanvix/nanvix/blob/dev/doc/run.md) guides.
   
 ## How to Join the Community?
 
