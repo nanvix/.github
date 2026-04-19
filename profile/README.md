@@ -5,27 +5,54 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/nanvix/nanvix)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/nanvix/nanvix/ci.yml?branch=dev&label=tests)
 
-## How to Get Started?
+## Quick Start
 
-Run these steps on Ubuntu 24.04 with sudo privileges, [Docker](https://github.com/nanvix/nanvix/blob/dev/doc/setup.md#5-setup-docker-optional), and
-[KVM](https://github.com/nanvix/nanvix/blob/dev/doc/setup.md#4-setup-kvm) enabled.
+### Linux
+
+Requires Ubuntu 24.04 with sudo privileges and
+[KVM](doc/setup-linux.md#4-setup-kvm) enabled.
 
 ```bash
-# Clone this source code.
+# Run on Bash.
+
+# Clone main repository.
 git clone https://github.com/nanvix/nanvix.git && cd nanvix
 
-# Setup a minimal development environment.
-./z setup --with-minimal-docker
+# Setup the development environment.
+./z setup
 
 # Build Nanvix.
-./z build --with-minimal-docker -- all
+./z build -- all
 
 # Run an example application.
 ./bin/nanvixd.elf -console-file /dev/stdout -- ./bin/hello-rust-nostd.elf
 ```
 
-> For more details, see the full [setup](https://github.com/nanvix/nanvix/blob/dev/doc/setup.md), [build](https://github.com/nanvix/nanvix/blob/dev/doc/build.md), and
-> [run](https://github.com/nanvix/nanvix/blob/dev/doc/run.md) guides.
+### Windows
+
+Requires Windows 11 with [GNU Make](doc/setup-windows.md#5-run-setup) on PATH, [Windows
+Hypervisor Platform](doc/setup-windows.md#4-enable-windows-hypervisor-platform) enabled, [Developer
+Mode](doc/setup-windows.md#2-enable-developer-mode) turned on, and a Rust toolchain installed via
+[rustup](https://rustup.rs).
+
+```powershell
+# Run on PowerShell.
+
+# Clone main repository (symlinks require Developer Mode).
+git clone -c core.symlinks=true https://github.com/nanvix/nanvix.git; cd nanvix
+
+# Setup the development environment.
+.\z.ps1 setup
+
+# Build Nanvix.
+.\z.ps1 build -- all
+
+# Run an example application.
+.\bin\uservm.exe -kernel .\bin\kernel.elf -initrd .\bin\hello-rust-nostd.elf -standalone
+```
+
+> For more details, see the full [setup](doc/setup.md), [build](doc/build.md), and
+> [run](doc/run.md) guides.
   
 ## How to Join the Community?
 
